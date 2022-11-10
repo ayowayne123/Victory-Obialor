@@ -3,7 +3,8 @@ import Link from "next/link"
 
 export default function Home() {
   return (
-    <div className="container ">
+    <div className="flex flex-col justify-center w-screen min-h-screen">
+    <div className="container self-center ">
       <div className="justify-center flex flex-col h-[70vh] w-full bg-gray-200 my-auto"> 
     <div className="grid grid-cols-2 self-center">
      <div className="flex flex-col text-lime-800">
@@ -16,7 +17,7 @@ export default function Home() {
       </div>
       
       </div>
-      <div className="bg-gray-400 grid h-16 text-white text-xl grid-cols-6">
+      <div className="text-center bg-gray-400 grid h-16 text-white text-xl grid-cols-6">
       <Link className="hover:bg-gray-500 grid items-center justify-center" href='/about'>
       <span className=""> About Me</span>
       </Link>
@@ -37,6 +38,6 @@ export default function Home() {
       </Link>
          </div>
 
-    </div>
+    </div></div>
   )
 }

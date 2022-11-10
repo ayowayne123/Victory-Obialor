@@ -42,7 +42,11 @@ function About () {
                         <span> </span> </span>
                 </span>
             </span>
-            <span className='Education flex flex-col'> </span>
+            <span className='Education flex flex-col'>
+            <span className='text-3xl font-bold'>Education </span>
+            <span>Cyprus International University </span>
+            <span>2018 - 2022 </span>
+            </span>
         </div>
         <div className='bg-gray-400'></div>
          </div>
