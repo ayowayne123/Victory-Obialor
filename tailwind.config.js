@@ -19,8 +19,20 @@ module.exports = {
       
         
       },
+      animation: {
+        move: 'move 1s linear 1 forwards',
+      },
+
+      keyframes: {
+        move: {
+          '0%': { transform: 'translateX(0rem)' },
+          '100%': { transform: 'translateX(1.25rem)' },
+        }
+      }
      
     },
   },
-  plugins: [],
+  plugins: [
+    
+  ],
 }
